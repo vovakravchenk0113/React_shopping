@@ -1,0 +1,619 @@
+nav {
+    border-radius: none
+}
+
+.navbar {
+    width: 100%;
+    height: 7rem;
+    background-color: #9c1d1d;
+    border-radius: 0 !important;
+    position: fixed;
+    width: 100%;
+    z-index: 200
+}
+
+.navbar-brand {
+    margin-top: 0.8rem
+}
+
+.navbar-form {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.container {
+    padding-top: 8rem
+}
+
+navbar-form {}
+
+.navbar img,
+.navbar span {
+    display: inline-block
+}
+
+.navbar span {
+    color: white;
+    font-weight: thin;
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 1rem;
+    margin-top: 70px;
+    box-shadow: 0px 0px 15px black
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.2rempx;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.nav-form {
+    display: inline-block;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    margin-left: 20%
+}
+
+.nav-form i,
+.nav-form input {
+    display: inline-block;
+}
+
+.nav-form i {
+    color: grey;
+    width: 30px;
+    padding-left: 15px
+}
+
+.nav-form input {
+    width: 90%;
+    border: none;
+    box-shadow: 0px 0px 0px white !important;
+}
+
+.navbar-right a {
+    color: white !important;
+    margin-top: 0.9rem
+}
+
+.cart {
+    font-size: 3rem;
+    padding-left: 4rem !important;
+    margin-top: 0.5rem !important
+}
+
+.storeIcon {
+    font-size: 4rem;
+    margin-top: 0.5rem
+}
+
+.categories {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0px 0px 15px #d8d8d8;
+    border-top: 0px solid #9c1c1d;
+    color: black
+}
+
+.categories img {
+    border-radius: 50%;
+    width: 50px;
+    border: 4px solid white
+}
+
+.categories .col-md-8 {
+    margin-top: 1rem;
+    font-size: 1.7rem
+}
+
+.catHead {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.categoriesMain {
+    padding-top: 3rem
+}
+
+.input-range {
+    margin-top: 1.8rem
+}
+
+.dv-star-rating-star i {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.dv-star-rating-star {
+    margin-top: 0.5rem !important
+}
+
+.filters {
+    background-color: whitesmoke;
+    padding: 1rem;
+    ;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px
+}
+
+.item {
+    margin-top: 2rem;
+    background-color: whitesmoke;
+    padding: 1.5rem 0rem
+}
+
+.itemImage img {
+    width: 100%
+}
+
+.itemName {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    width: 80%;
+    margin-top: 1rem
+}
+
+.itemPrice {
+    font-size: 3rem;
+    font-weight: bold;
+    float: right;
+    margin-top: -4.6rem;
+    color: black
+}
+
+.itemProducer {
+    color: black;
+    margin-top: 2rem
+}
+
+.itemRating {
+    margin-top: 2rem
+}
+
+.itemAvg,
+.itemRating {
+    display: inline-block
+}
+
+.itemAvg {
+    padding-right: 1rem
+}
+
+.itemAvg {
+    font-size: 4.5rem;
+    color: black
+}
+
+.itemRating .dv-star-rating {
+    margin-bottom: -1.5rem;
+}
+
+.reviewCount {
+    padding: 0.1rem 0.3rem;
+    font-size: 1.3rem;
+    color: black
+}
+
+.producerImage,
+.producerName {
+    display: inline-block
+}
+
+.itemFooter {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: whitesmoke;
+    border-top: 1px solid #e0e0e0;
+    color: black
+}
+
+.producerImage {
+    padding-right: 1rem
+}
+
+.footerRight {
+    float: right;
+}
+
+.rightText,
+.logo {
+    display: inline-block
+}
+
+.rightText {
+    padding-right: 1rem
+}
+
+.logo img {
+    width: 30px;
+    filter: saturate(0)
+}
+
+.itemDescription {
+    margin-top: 1rem
+}
+
+.partRow:hover {
+    cursor: pointer;
+}
+
+.loader {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 500;
+    top: 0;
+}
+
+.loader img {
+    position: absolute;
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+    top: 48%
+}
+
+.itemFirstLine {
+    margin-top: 2rem
+}
+
+.itemFirstLine .itemPrice {
+    margin-top: -3rem
+}
+
+.itemPrice,
+.addToCart {
+    display: inline-block;
+    float: right
+}
+
+.addToCart {
+    background-color: #9c1c1d;
+    padding: 1.5rem 2rem;
+    color: white;
+    font-weight: bold;
+    margin-top: -3.2rem;
+    margin-left: 2rem
+}
+
+.addToCart:hover {
+    cursor: pointer
+}
+
+.itemPage .itemProducer {
+    font-weight: bold;
+}
+
+.itemPage .producerImage {
+    margin-top: 1rem
+}
+
+.itemPage .itemAvg {
+    font-size: 7rem
+}
+
+.itemPage .dv-star-rating-star i {
+    font-size: 3rem
+}
+
+.itemPage .reviewCount {
+    font-size: 2rem
+}
+
+.itemRating {
+    margin-top: 0rem;
+}
+
+.itemPage .itemAvg {
+    margin-left: 7rem;
+}
+
+.ratingHalf {
+    background-color: white;
+    margin: 2%;
+    width: 46%
+}
+
+.originHalf {
+    background-color: white;
+    margin: 2%;
+    width: 46%;
+    padding: 3.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.originHalf img {
+    filter: saturate(0)
+}
+
+.reviewItem {
+    margin-bottom: 1rem
+}
+
+.reviewItem .userImage,
+.reviewItem .reviewDetails {
+    display: inline-block
+}
+
+.userImage {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0.5rem
+}
+
+.reviewDetails {
+    width: 80%;
+    padding-left: 10px
+}
+
+.reviewDetails .dv-star-rating-star i {
+    font-size: 2rem
+}
+
+.reviewUser {
+    font-weight: bold
+}
+
+.reviewMain {
+    border-bottom: 2px solid #c3c3c3;
+    margin-bottom: 2rem
+}
+
+.rightOptions {
+    display: none
+}
+
+.reviewLoader img {
+    width: 40px;
+}
+
+.reviewLoader,
+.loadText {
+    display: inline-block
+}
+
+.loadText:hover {
+    cursor: pointer;
+}
+
+.disableLoad {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: grey !important;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar-header {
+        width: 30% !important;
+    }
+    .nav-form {
+        width: 80% !important
+    }
+    .navbar-right {
+        display: none !important;
+        right: 0;
+    }
+    .navbar-header,
+    .nav-form,
+    .navbar-right {
+        display: inline-block;
+        position: absolute;
+    }
+    .rightOptions {
+        display: block;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 1rem;
+        margin-top: 70px
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 1.2rempx;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .nav-form {
+        display: inline-block;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 1.5rem;
+        margin-left: 10%
+    }
+    .nav-form i,
+    .nav-form input {
+        display: inline-block;
+    }
+    .nav-form i {
+        color: grey;
+        width: 30px;
+        padding-left: 15px
+    }
+    .nav-form input {
+        width: 70%;
+        border: none;
+        box-shadow: 0px 0px 0px white !important;
+    }
+    .navbar-right a {
+        color: white !important;
+        margin-top: 0.9rem
+    }
+    .cart {
+        font-size: 3rem;
+        padding-left: 4rem !important;
+        margin-top: 0.5rem !important
+    }
+    .footerRight {
+        float: none;
+        margin-top: 2rem
+    }
+    .rightText {
+        padding-right: 1rem;
+        font-size: 1rem
+    }
+    .logo img {
+        width: 20px
+    }
+    .producerName {
+        font-size: 1.2rem
+    }
+    .producerImage img {
+        width: 20px
+    }
+}
+
+@media (max-width: 1200px) {
+    .itemPage .itemAvg {
+        font-size: 4rem
+    }
+    .itemPage .dv-star-rating-star i {
+        font-size: 2rem
+    }
+    .itemPage .reviewCount {
+        font-size: 1.5rem
+    }
+    .itemPage .itemAvg {
+        margin-left: 2rem;
+    }
+    .ratingHalf {
+        width: 45%
+    }
+    .originHalf {
+        width: 45%;
+        padding: 1.6rem;
+    }
+    .originHalf img {
+        filter: saturate(0)
+    }
+    .originHalf .rightText {
+        font-size: 2rem
+    }
+}
+
+@media (max-width:740px) {
+    .itemFirstLine {
+        margin-top: 2rem
+    }
+    .itemFirstLine .itemPrice {
+        margin-top: 1rem
+    }
+    .itemPage .itemPrice,
+    .addToCart {
+        display: block;
+        float: none
+    }
+    .addToCart {
+        background-color: #9c1c1d;
+        padding: 1.5rem 2rem;
+        display: block;
+        width: 150px;
+        text-align: center;
+        margin-top: 1rem;
+        color: white;
+        font-weight: bold;
+        margin-left: 0rem
+    }
+    .addToCart:hover {
+        cursor: pointer
+    }
+    .itemDescription {
+        text-align: justify
+    }
+}
+
+@media (max-width:600px) {
+    .itemPage .itemAvg {
+        font-size: 4rem
+    }
+    .itemPage .dv-star-rating-star i {
+        font-size: 2rem
+    }
+    .itemPage .reviewCount {
+        font-size: 1.5rem
+    }
+    .itemPage .itemAvg {
+        margin-left: 2rem;
+    }
+    .ratingHalf {
+        width: 94%;
+    }
+    .originHalf {
+        width: 94%;
+        padding: 1.6rem;
+        text-align: left;
+        padding-left: 3rem
+    }
+    .originHalf img {
+        filter: saturate(0)
+    }
+    .originHalf .rightText {
+        font-size: 1.4rem
+    }
+}
